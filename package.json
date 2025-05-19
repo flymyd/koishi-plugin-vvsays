@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-vvsays",
   "description": "发送张维为表情包",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -15,8 +15,15 @@
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "homepage": "https://github.com/flymyd/koishi-plugin-vvsays",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flymyd/koishi-plugin-vvsays.git"
+  },
   "peerDependencies": {
     "koishi": "^4.18.7"
+  },
+  "dependencies": {
+    "@satorijs/element": "^3.1.7"
   }
 }
